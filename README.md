@@ -1,12 +1,28 @@
-# React + Vite
+## Overview  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This React application provides a complete user management interface where users, albums, and photos are managed with real-time API interactions using Redux Toolkit.
 
-Currently, two official plugins are available:
+The app displays a table of all users, and allows the following operations:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+✅ Create new users
 
-## Expanding the ESLint configuration
+❌ Delete existing users
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+📂 View albums associated with each user
+
+➕ Create new albums per user
+
+🖼️ View and add photos in each album
+
+❌ Delete albums or photos
+
+🔧 Technical Details
+Redux Toolkit (RTK) is used for state management.
+
+Async Thunks handle user-related actions such as fetching, adding, and deleting users.
+
+RTK Query and Mutations (via createApi) are used for handling album and photo API requests.
+
+Every interaction — like adding or deleting an album or photo — triggers an actual API call to the respective AlbumsAPI or PhotosAPI.
+
+This setup demonstrates a modern, modular approach to building scalable React apps using Redux Toolkit's full capabilities.
