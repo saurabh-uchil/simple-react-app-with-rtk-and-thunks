@@ -1,0 +1,22 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App{
+  padding: 20px;
+  display: block;
+}
+.add{
+  float: right;
+  margin: 20px;
+}
+
+.addButton{
+  width: 200px;
+  background-color: #4a80ec;
+  border: 2px solid #0e2d69;
+  padding: 10px;
+  height: 50px;
+  color: #f7f7f7;
+}

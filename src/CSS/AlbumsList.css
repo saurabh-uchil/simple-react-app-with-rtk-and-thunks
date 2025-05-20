@@ -1,0 +1,27 @@
+
+.albums{
+     padding: 5px;
+     border: 2px solid #0e2d69;
+    align-items: center;
+    margin-inline: 10px;
+}
+
+.divHeader{
+   display: flex;
+   justify-content: space-between;
+    padding: 5px;
+    margin-inline: 10px;
+}
+
+.albumsPanel{
+     border: 2px solid #0e2d69;
+     padding: 5px;
+     margin: 10px;
+}
+
+.albumsPanel button{
+}
+
+.addAlbums{
+    width: 200px;
+}

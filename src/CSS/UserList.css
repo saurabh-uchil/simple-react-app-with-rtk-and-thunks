@@ -1,0 +1,35 @@
+.list{
+    padding: 10px;
+    border: 2px solid  #144fc7;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.user{
+    padding: 5px;
+    margin: 10px;
+    border: 2px solid #0e2d69;
+    background-color: #4a80ec;
+    color:#0e2d69;
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+}
+.delete{
+    background-color: rgb(211, 19, 19);
+    color: #f7f7f7;
+}
+button{
+    width: 80px;
+    height: 40px;
+    font-size: 20px;
+    padding: 2px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+p{
+    margin-top: 5px;
+    font-size: 20px;
+    color: #061635;
+}

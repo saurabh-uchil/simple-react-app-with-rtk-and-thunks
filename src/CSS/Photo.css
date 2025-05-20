@@ -1,0 +1,12 @@
+.imageDiv{
+    display: flex;
+    flex-direction: column;
+    padding: 2px;
+    border: 2px solid white;
+    margin: 5px;
+}
+.imageDiv button{
+    margin-left: auto;
+    margin-right: auto;
+    margin-block: 5px;
+}

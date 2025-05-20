@@ -1,0 +1,36 @@
+.photoListDiv{
+    border: 2px solid rgb(66, 64, 64);
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(49, 170, 65);
+    
+}
+
+.photosDataDiv{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.photosDataDiv img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin: 5px;
+}
+
+.photosDataDiv button{
+    width: 100px;
+}
+
+.photoListDiv *{
+    color: #ffff;
+}
+.addPhoto{
+    width: 150px;
+}
+
+.photoDivHeader{
+    display: flex;
+    justify-content: space-between;
+}
