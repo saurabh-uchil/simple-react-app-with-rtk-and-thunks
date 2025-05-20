@@ -26,3 +26,7 @@ RTK Query and Mutations (via createApi) are used for handling album and photo AP
 Every interaction — like adding or deleting an album or photo — triggers an actual API call to the respective AlbumsAPI or PhotosAPI.
 
 This setup demonstrates a modern, modular approach to building scalable React apps using Redux Toolkit's full capabilities.
+
+
+##Preview  
+![Image](https://github.com/user-attachments/assets/4737497c-8748-44d3-ab2a-38d9ed3a22b3)
